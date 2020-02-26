@@ -2,6 +2,11 @@
 
 ## Índice
 
+* Persistencia
+* RDB
+* AOF
+* Combinando RDB y AOF
+* Ejercicios
 
 ## Visualización
 
