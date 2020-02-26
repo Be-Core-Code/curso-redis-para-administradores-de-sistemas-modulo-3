@@ -1,0 +1,19 @@
+version: '3'
+services:
+  node:
+    stdin_open: true
+    tty: true
+    image: becorecode/revealjs:3.8.0
+    environment:
+      - TZ=Europe/Madrid
+      - NODE_OPTIONS=--no-warnings
+    volumes:
+      - ./index.html:/home/node/index.html
+      - ./slides:/home/node/slides
+      - node_modules_cache:/home/node/node_modules
+    ports:
+      - "[PUERTO]:[PUERTO]"
+    command: ["npm", "start", "--", "--port=[PUERTO]"]
+
+volumes:
+  node_modules_cache:
