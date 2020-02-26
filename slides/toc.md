@@ -1,6 +1,6 @@
-#### Contenido módulo [MODULO]
+#### Contenido módulo 2
 
-#### [TÍTULO DEL MÓDULO]
+#### Persistencia
 
 * ...
 
