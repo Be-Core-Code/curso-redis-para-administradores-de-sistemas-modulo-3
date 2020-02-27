@@ -243,7 +243,7 @@ REDIS0009.      redis-ver^E5.0.7.
 redis-bits.@.^Ectime.v.V^.^Hused-mem.^?,        ^@.^Laof-preamble.^A.^@.^C^@^M^E...
 ```
 
-Si ejecutamos ahora un comando como por ejemplo `SET clave3 valor3`, el fichero contedrá
+Si ejecutamos ahora un comando como por ejemplo `SET clave3 valor3`, el fichero contendrá
 el preámbulo y los nuevos comandos:
 
 ```bash
