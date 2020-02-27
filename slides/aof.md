@@ -218,6 +218,7 @@ Background append only file rewriting started
 #### 💻️ Práctica
 
 * Si abrimos de nuevo el fichero `appendonly.aof` veremos únicamente el `aof-preamble`
+* Veremos el `aof-preamble` en más detalle en la siguiente sección
 
 note:
 

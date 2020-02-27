@@ -15,4 +15,6 @@
 * `dbfilename`: Nombre del fichero RDB
 * `logfile`: Ruta completa al fichero de log de Redis
 * `appendonly`: activa o desactiva el soporte para la persistencia mediante AOF
+* `aof-use-rdb-preamble`: activa el preámbulo del fichero AOF (optimización de rendimiento)
+
 [Sobre `redis.conf`](https://redis.io/topics/config)
