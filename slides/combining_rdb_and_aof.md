@@ -19,17 +19,6 @@ redis-cli > DEBUG POPULATE 10000
 OK 
 ```
 
-^^^^^^^
-
-#### 💻️ Práctica
-
-* Crear 10.000 claves con el comando DEBUG POPULATE
-
-```redis-cli
-redis-cli > DEBUG POPULATE 10000
-OK 
-```
-
 ^^^^^^
 
 #### 💻️ Práctica
